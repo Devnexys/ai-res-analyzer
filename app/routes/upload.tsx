@@ -71,7 +71,7 @@ const Upload = () => {
 
         if(!file) return;
 
-        handleAnalyze({ companyName, jobTitle, jobDescription, file })
+        handleAnalyze({ companyName, jobTitle, jobDescription, file });
     }
 
     const handleFileSelect = (file: File | null) => {
