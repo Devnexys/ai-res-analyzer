@@ -350,7 +350,9 @@ export const usePuterStore = create<PuterStore>((set, get) => {
                     ],
                 },
             ],
-            { model: "gpt-4o-mini" }
+            { model: "claude-3-7-sonnet" }
+        // Some Models List - models: "claude-3.7-sonnet", "claude-3.5-sonnet", "claude-3.5-haiku", "gpt-4.1", "gpt-4o", "gpt-4o-mini", "gpt-3.5-turbo-0125", "llama-3.1-70b", "llama-3.1-8b", "mistral-large", "mistral-nemo", "qwen-2.5-72b", "qwen-2.5-14b", "deepseek-r1", "phi-3-medium"
+        // Best Free Models - models: "llama-3.1-70b",  "llama-3.1-8b", "mistral-large", "mistral-nemo", "qwen-2.5-72b", "qwen-2.5-14b", "deepseek-r1", "phi-3-medium"
         ) as Promise<AIResponse | undefined>;
     };
 
